@@ -14,4 +14,9 @@
     <Folder Include="ApiModels\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CS321_W4D2_ExerciseLog_API.Core\CS321_W4D2_ExerciseLog_API.Core.csproj" />
+    <ProjectReference Include="..\CS321_W4D2_ExerciseLog_API.Infrastructure\CS321_W4D2_ExerciseLog_API.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>

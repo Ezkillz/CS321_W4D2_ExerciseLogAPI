@@ -1,7 +1,12 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS321_W4D2_ExerciseLogAPI", "CS321_W4D2_ExerciseLogAPI\CS321_W4D2_ExerciseLogAPI.csproj", "{ABA5FF78-BCA2-4226-9503-38356F4006A0}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS321_W4D2_ExerciseLogAPI", "CS321_W4D2_ExerciseLogAPI\CS321_W4D2_ExerciseLogAPI.csproj", "{ABA5FF78-BCA2-4226-9503-38356F4006A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS321_W4D2_ExerciseLog_API.Core", "CS321_W4D2_ExerciseLog_API.Core\CS321_W4D2_ExerciseLog_API.Core.csproj", "{228A56D9-19E9-45A2-93B8-0B7F13188FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS321_W4D2_ExerciseLog_API.Infrastructure", "CS321_W4D2_ExerciseLog_API.Infrastructure\CS321_W4D2_ExerciseLog_API.Infrastructure.csproj", "{482A192A-15F6-4B90-B53C-3555D93D471C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +18,19 @@ Global
 		{ABA5FF78-BCA2-4226-9503-38356F4006A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABA5FF78-BCA2-4226-9503-38356F4006A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABA5FF78-BCA2-4226-9503-38356F4006A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228A56D9-19E9-45A2-93B8-0B7F13188FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228A56D9-19E9-45A2-93B8-0B7F13188FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228A56D9-19E9-45A2-93B8-0B7F13188FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228A56D9-19E9-45A2-93B8-0B7F13188FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{482A192A-15F6-4B90-B53C-3555D93D471C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482A192A-15F6-4B90-B53C-3555D93D471C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482A192A-15F6-4B90-B53C-3555D93D471C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482A192A-15F6-4B90-B53C-3555D93D471C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AFF738D-5619-4E32-8B5C-8D1F42F063B4}
 	EndGlobalSection
 EndGlobal
