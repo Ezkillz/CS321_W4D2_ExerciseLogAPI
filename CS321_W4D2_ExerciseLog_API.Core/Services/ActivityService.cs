@@ -5,15 +5,16 @@ using CS321_W4D2_ExerciseLog_API.Core.Models;
 
 namespace CS321_W4D2_ExerciseLog_API.Core.Services
 {
-    class ActivityService : IActivityRepository
+    class ActivityService : IActivityService
+, IActivityService
     {
         private IActivityRepository _activityRepo;
 
-        public ActivityService(IUserRepository activityRepo)
+        public ActivityService(IActivityRepository activityRepo)
         {
             _activityRepo = activityRepo;
         }
-        public Activity Add(Activity newactivity)
+        public Activity Add(Activity newActivity)
         {
             return _activityRepo.Add(newActivity);
         }
@@ -26,12 +27,12 @@ namespace CS321_W4D2_ExerciseLog_API.Core.Services
         {
             return _activityRepo.Update(updatedActivity);
         }
-        public void Remove(Activity user)
+        public void Remove(Activity activity)
         {
             _activityRepo.Remove(activity);
             _activityRepo.SaveChanges();
         }
-        public IEnumerable<Activity> GetAll()
+        public ICollection<Activity> GetAll()
         {
             return _activityRepo.GetAll();
         }

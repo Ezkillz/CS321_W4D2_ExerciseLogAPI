@@ -5,7 +5,7 @@ using CS321_W4D2_ExerciseLog_API.Core.Models;
 
 namespace CS321_W4D2_ExerciseLog_API.Core.Services
 {
-    class ActivityTypeService : IActivityTypeRepository
+    class ActivityTypeService : IActivityTypeService
     {
         private IUserRepository _userRepo;
 
