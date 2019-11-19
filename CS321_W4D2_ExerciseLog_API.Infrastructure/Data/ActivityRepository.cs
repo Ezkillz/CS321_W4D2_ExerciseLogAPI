@@ -4,8 +4,8 @@ using System.Text;
 
 namespace CS321_W4D2_ExerciseLog_API.Infrastructure.Data
 {
-    class UserRepository : IUserRepository
+    class ActivityRepository : IActivityRepository
     {
-        
+
     }
 }
